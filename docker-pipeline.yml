@@ -4,8 +4,6 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
-variables:
-  imageName: 'bottl_Repo'
   
 steps:
 - task: Maven@2
