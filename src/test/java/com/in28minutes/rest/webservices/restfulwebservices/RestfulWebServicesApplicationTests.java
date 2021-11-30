@@ -10,7 +10,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class RestfulWebServicesApplicationTests {
 
 	@Test
-	public void contextLoads() {
+	void contextLoads() {
+	    Assertions.assertDoesNotThrow(this::doNotThrowException);
+	}
+
+	private void doNotThrowException(){
 	}
 
 }
